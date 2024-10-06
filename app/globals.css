@@ -6,10 +6,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #181E4B;
+  --foreground: #181e4b;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: 'Volkhov', serif;
 }

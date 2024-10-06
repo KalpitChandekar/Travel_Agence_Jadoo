@@ -12,10 +12,9 @@ module.exports = {
         orange: "#DF6951",
         yellow: "#F1A501",
       },
-      backgroundColor: {},
-      fontFamily: {
-        volkhov: ["Volkhov", "serif"],
-      },
+      // fontFamily: {
+      //   volkhov: ["Volkhov", "serif"],
+      // },
     },
   },
   plugins: [],

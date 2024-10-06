@@ -1,7 +1,9 @@
+import Navbar from "@/components/Navbar";
+
 const Page = () => {
   return (
     <div>
-      <h1>Page</h1>
+      <Navbar />
     </div>
   );
 };
