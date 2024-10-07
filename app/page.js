@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Service from "@/components/Service";
 import Image from "next/image";
 
 const Page = () => {
@@ -16,6 +17,7 @@ const Page = () => {
           className="absolute top-0 right-0 -z-20 w-[35rem]"
         />
       </div>
+      <Service />
     </div>
   );
 };

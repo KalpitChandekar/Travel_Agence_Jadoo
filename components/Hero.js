@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex max-w-5xl mt-7 items-center mx-auto">
+    <div className="flex max-w-5xl mt-7 mb-20 items-center mx-auto">
       <div className="w-1/2 flex flex-col gap-6 max-w-md mr-auto">
         <h2 className="text-orange font-bold">
           BEST DESTINATION AROUND THE WORLD
