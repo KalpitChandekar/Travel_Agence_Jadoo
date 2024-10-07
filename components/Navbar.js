@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="flex max-w-6xl justify-between items-center mx-auto mt-6">
+    <div className="flex max-w-5xl justify-between items-center mx-auto">
       <a href="/">
         <Image
           src="/logo.png"
