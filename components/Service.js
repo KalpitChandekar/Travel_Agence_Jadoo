@@ -74,6 +74,14 @@ const Service = () => {
         alt="servicebg"
         className="absolute -bottom-10 left-64 -z-20"
       />
+
+      <Image
+        src="/dotes.png"
+        width={153}
+        height={166}
+        alt="dotes"
+        className="absolute w-28 top-0 right-0"
+      />
     </div>
   );
 };
