@@ -7,10 +7,11 @@
 :root {
   --background: #ffffff;
   --foreground: #181e4b;
+  
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Volkhov', serif;
+  /* font-family: 'Volkhov', serif; */
 }
