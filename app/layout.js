@@ -1,9 +1,10 @@
+import Head from "next/head";
 import "./globals.css";
 import { Poppins as PoppinsFont } from "next/font/google";
 
 const poppins = PoppinsFont({
   subsets: ["latin"],
-  weight: ["500"], 
+  weight: ["500"],
 });
 
 export const metadata = {
@@ -14,6 +15,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body className={poppins.className}>{children}</body>
     </html>
   );
