@@ -37,7 +37,7 @@ const Card = ({ destination, price, imgUrl, width, height, days }) => {
           alt="service"
           width={width}
           height={height}
-          className="rounded-3xl w-full" 
+          className="rounded-3xl w-full"
         />
       </div>
 
@@ -55,14 +55,22 @@ const Card = ({ destination, price, imgUrl, width, height, days }) => {
 
 const Destination = () => {
   return (
-    <div className="text-center relative max-w-6xl mx-auto my-40 flex flex-col gap-2">
+    <div className="text-center max-w-5xl mx-auto my-40 flex flex-col gap-2 ">
       <h2 className="text-gray">TOP SELLING</h2>
       <h1 className="text-4xl font-volkhov font-bold">Top Destinations</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mt-8 relative">
         {cards.map((card, index) => (
           <Card key={index} index={index} {...card} />
         ))}
+
+        <Image
+          src="/destinationbg.png"
+          width={98}
+          height={254}
+          alt="bg"
+          className="absolute top-32 -right-16 -z-10"
+        />
       </div>
     </div>
   );
