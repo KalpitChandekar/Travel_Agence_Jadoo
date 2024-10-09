@@ -1,3 +1,4 @@
+import Destination from "@/components/Destination";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Service from "@/components/Service";
@@ -18,6 +19,7 @@ const Page = () => {
         />
       </div>
       <Service />
+      <Destination />
     </div>
   );
 };

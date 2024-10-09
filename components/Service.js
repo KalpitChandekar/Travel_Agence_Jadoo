@@ -55,7 +55,7 @@ const Card = ({ title, description, imgUrl, width, height, index }) => {
 
 const Service = () => {
   return (
-    <div className="text-center relative max-w-6xl mx-auto my-20 flex flex-col gap-2">
+    <div className="text-center relative max-w-6xl mx-auto my-40 flex flex-col gap-2">
       <h2 className="text-gray">CATEGORY</h2>
       <h1 className="text-4xl font-volkhov font-bold">
         We Offer Best Services
