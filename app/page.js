@@ -1,3 +1,4 @@
+import BookYourTrip from "@/components/BookYourTrip";
 import Destination from "@/components/Destination";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -20,6 +21,7 @@ const Page = () => {
       </div>
       <Service />
       <Destination />
+      <BookYourTrip />
     </div>
   );
 };
