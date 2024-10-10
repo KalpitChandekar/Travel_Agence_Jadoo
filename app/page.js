@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
 import Service from "@/components/Service";
+import Subscribe from "@/components/Subscribe";
 import Testimonial from "@/components/Testimonials";
 import Image from "next/image";
 
@@ -26,6 +27,7 @@ const Page = () => {
       <BookYourTrip />
       <Testimonial />
       <Partners />
+      <Subscribe />
     </div>
   );
 };
