@@ -1,5 +1,6 @@
 import BookYourTrip from "@/components/BookYourTrip";
 import Destination from "@/components/Destination";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
@@ -28,6 +29,7 @@ const Page = () => {
       <Testimonial />
       <Partners />
       <Subscribe />
+      <Footer />
     </div>
   );
 };
