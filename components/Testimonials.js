@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <div className="flex max-w-6xl mx-auto my-40 justify-around">
+    <div className="flex max-w-6xl mx-auto mt-40 mb-60 justify-around">
       <div className="flex z-10 flex-col gap-10 max-w-[20rem]">
         <div className="space-y-2">
           <h2 className="text-gray">TESTIMONIAL</h2>
