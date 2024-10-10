@@ -3,6 +3,7 @@ import Destination from "@/components/Destination";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Service from "@/components/Service";
+import Testimonial from "@/components/Testimonials";
 import Image from "next/image";
 
 const Page = () => {
@@ -22,6 +23,7 @@ const Page = () => {
       <Service />
       <Destination />
       <BookYourTrip />
+      <Testimonial />
     </div>
   );
 };
